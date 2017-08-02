@@ -1,0 +1,51 @@
+div #process, div #about {
+	background-color: white;
+}
+
+body {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+#header {
+	background-image: url(../images/flatiron.png);
+}
+
+#header ul {
+	font-family: helvetica;
+	font-size: 18px;
+	color: white;
+}
+
+#header h1 {
+	font-family: helvetica;
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
+
+#process h2 {
+	font-family: helvetica;
+	font-size: 32px;
+	font-weight: bold;
+}
+#process h3 {
+	font-family: helvetica;
+	font-size: 23px;
+	font-weight: bold;
+}
+#process p {
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+#about h2 {
+	font-family: Helvetica;
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	background-image: url(../images/flatiron.png);
+}
