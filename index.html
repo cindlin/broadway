@@ -1,3 +1,5 @@
+<!--This is a project for Codecademy. Project Broadway calls for a design of a webpage -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,20 +7,22 @@
 <title> Broadway Design </title>
 </head>
 
+<!--Creating div for each section of the page starting with Header and a menu ul for the page-->
 <body>
 <div id="header"> 
 <h1> Broadway Design </h1>
 <ul>
-<li>Home</li>
-<li>Process</li>
-<li>Work</li>
-<li>Team</li>
-<li>Contact</li>
+<li><a href="#">Home</a></li>
+<li><a href="#process">Process</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="team">Team</a></li>
+<li><a href="contact">Contact</a></li>
 </ul>
 </div>
 
-<div id="process">
-<h2> Our Process </h2>
+<!-- for the first block of text I put it in a div class textblock -->
+<div class="textblock">
+<h2 id="process"> Our Process </h2>
 <img src="./resources/images/identify.svg">
 <h3> Identify </h3>
 <p> We focus on the most important details.</p>
@@ -30,24 +34,30 @@
 <p> We put everything we have into our work. </p>
 </div>
 
-<div id="about">
-<h2> Designed In New York </h2>
-<h3> Portfolio </h3>
+<!-- The second textblock containing more information -->
+
+<div class="textblock">
+<h2 id="secondh2"> Designed In New York </h2>
+<h3 id="work"> Portfolio </h3>
 <p> Coming Soon </p>
-<h3> Team </h3>
+<h3 id="team"> Team </h3>
 <p> We're Hiring! </p>
-<h3> Contact </h3>
+<h3 id="contact"> Contact </h3>
 <p> Phone: (555)-555-5555 </p>
 <p> E-mail: test@example.com </p>
 
 </body>
-<footer> &copy; Broadway 2017 
+
+<!-- In the footer I included the copywrights as well as another menu for links -->
+<footer>
+<div><p id="copyright"> &copy; Broadway 2017 </p> 
 <ul>
- <li> Home </li> 
- <li> About </li>
- <li> Work </li>
- <li> Team </li>
- <li> Contact </li>
- </ul>
+<li><a href="#">Home</a></li>
+<li><a href="#process">Process</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="team">Team</a></li>
+<li><a href="contact">Contact</a></li>
+</ul>
+ <div>
  </footer>
 </html>

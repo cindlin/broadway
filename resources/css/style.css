@@ -1,20 +1,23 @@
-div #process, div #about {
+/* each div textblock background will be white */
+div #textblock {
 	background-color: white;
 }
-
+/* center all contents */
 body {
 	text-align: center;
 }
-
-li {
+/* List style no bulletpoints */
+ul li {
 	list-style-type: none;
+	color: white;
 }
-
+/* adding a background image to the header */
 #header {
 	background-image: url(../images/flatiron.png);
 }
 
-#header ul {
+/* Changing color of list and links within the list */
+#header li a {
 	font-family: helvetica;
 	font-size: 18px;
 	color: white;
@@ -27,25 +30,47 @@ li {
 	color: white;
 }
 
-#process h2 {
+/* styles for the textblocks */
+.textblock p {
+font-family: Helvetica;
+font-size: 14px;
+}
+
+.textblock h3 {
+	font-family: Helvetica;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.textblock h2 {
 	font-family: helvetica;
 	font-size: 32px;
 	font-weight: bold;
 }
-#process h3 {
-	font-family: helvetica;
-	font-size: 23px;
-	font-weight: bold;
-}
-#process p {
-	font-family: helvetica;
-	font-size: 14px;
-}
 
-#about h2 {
+/* The header for the 2nd block of text has a different background and style */
+.textblock #secondh2 {
 	font-family: Helvetica;
 	font-size: 23px;
 	font-weight: bold;
 	color: white;
 	background-image: url(../images/flatiron.png);
+}
+
+/* styles for the footer containing a copyright and menu */
+
+footer {
+	background-color: dimgray;
+	text-align: left;
+}
+
+footer li {
+	display: inline;
+}
+
+footer #copyright {
+	font-family: Helvetica;
+	font-size: 11px;
+	color: white;
+	display: inline;
 }
